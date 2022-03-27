@@ -1,0 +1,73 @@
+.benefit {
+  background: var(--color__4);
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+}
+
+.benefit .container {
+  display: grid;
+  gap: 1.875rem;
+  background: var(--color__3);
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  padding-bottom: 1.5rem;
+  box-sizing: border-box;
+  box-shadow: 0 0 1em rgba(200, 159, 102, 90%);
+}
+
+.benefit .text {
+  max-width: 26ch;
+}
+
+.benefit__icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-sizing: border-box;
+}
+
+.benefit__icons div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.benefit__icons div img {
+  height: 1.5rem;
+}
+
+@media only screen and (min-width: 700px) {
+  .benefit .text {
+    max-width: 35ch;
+  }
+  .benefit__icons {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .icons--1,
+  .icons--2,
+  .icons--3,
+  .icons--4,
+  .icons--5 {
+    grid-row: 2;
+  }
+  .benefit__icons div img {
+    height: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .benefit .container {
+    padding-left: 4.8rem;
+    padding-right: 4.8rem;
+  }
+  .benefit .text {
+    max-width: 50ch;
+  }
+  .benefit__icons div img {
+    height: 100%;
+  }
+}

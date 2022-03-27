@@ -1,0 +1,67 @@
+.introduction {
+  display: grid;
+  justify-content: center;
+  background: var(--color__3);
+}
+
+.introduction__container img {
+  max-width: 100%;
+  max-height: 36.25rem;
+  object-fit: cover;
+}
+
+.introduction .container {
+  display: grid;
+  gap: 1.875rem;
+  position: relative;
+  padding-left: 0.5rem;
+  background: var(--color__5);
+}
+
+.introduction .container::after {
+  content: "";
+  background: url(../../img/icons/global/detalhe1.svg) no-repeat;
+  position: absolute;
+  width: 3.125rem;
+  height: 3.125rem;
+  bottom: 2.5rem;
+  right: 0;
+}
+
+@media only screen and (min-width: 700px) {
+  .introduction__container {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    align-items: center;
+    max-width: 60rem;
+  }
+  .introduction .container {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  .introduction img {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 100vw;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .introduction .container {
+    max-width: 24rem;
+  }
+  .introduction__container img {
+    max-height: 42rem;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .introduction__container {
+    max-width: 80rem;
+  }
+  .introduction .container {
+    max-width: 50rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}

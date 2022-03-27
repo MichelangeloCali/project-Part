@@ -1,0 +1,15 @@
+:root {
+  --font-title: 500 1.75rem/1.2 "Poppins", sans serif;
+  --font-title-logo: 400 1.75rem/1.2 "Poppins", sans serif;
+  --font-paragraph: 400 1rem/1.5 "Roboto", sans serif;
+  --font-menu-logo: 400 0.75rem/1.3 "Poppins", sans serif;
+  --font-menu-mobile: 400 1.375rem/1.3 "Poppins", sans serif;
+  --font-unit: 400 1.5rem/1.2 "Poppins", sans serif;
+  --font-footer: 500 1.3rem/1.2 "Poppins", sans serif;
+  --font-footer-list: 400 0.9rem/1.2 "Poppins", sans serif;
+  --font-plan: 300 1rem/1.2 "Roboto", sans serif;
+  --font-plan-title: 700 1.5rem/1.2 "Roboto", sans serif;
+  --font-button: 500 1.125rem/1.2 "Roboto", sans serif;
+  --font-icons: 100 0.625rem/1.3 "Roboto", sans serif;
+  --font-logo: 100 7rem/1.2 "Poppins", sans serif;
+}

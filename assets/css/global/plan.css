@@ -1,0 +1,88 @@
+.plan {
+  background: var(--color__5);
+}
+
+.plan .container {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.plan__type {
+  display: grid;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.plan__type--silver,
+.plan__type--gold {
+  display: grid;
+  gap: 1.3rem;
+  padding: 1.5rem 2rem;
+  background: var(--color__9);
+  box-shadow: 0 0 1em rgba(54, 36, 8, 0.9);
+}
+
+.plan__type--silver,
+.plan__type--gold,
+li + li {
+  margin-top: 0.8rem;
+  font: var(--font-plan);
+  color: var(--color__3);
+}
+
+.plan__type--silver li,
+.plan__type--gold li {
+  position: relative;
+}
+
+.plan__type--silver li::before,
+.plan__type--gold li::before {
+  content: url(../../img/icons/global/check.svg);
+  position: absolute;
+  left: -1.4rem;
+  width: 0.4rem;
+  height: 0.4rem;
+}
+
+.silver,
+.gold {
+  text-align: center;
+}
+
+.silver {
+  color: #d2d2d2;
+  text-align: start;
+}
+
+.gold {
+  color: #ffa800;
+  text-align: start;
+}
+
+@media only screen and (min-width: 700px) {
+  .plan .container .title {
+    margin-left: 0.4rem;
+    margin-bottom: 2rem;
+  }
+  .plan__type {
+    display: flex;
+  }
+  .plan__type .button {
+    height: max-content;
+  }
+  .plan__type--silver {
+    margin-top: 3rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .plan .container .title {
+    margin-left: 4.2rem;
+  }
+  .plan__type--silver,
+  .plan__type--gold {
+    padding: 3.5rem 5rem;
+    gap: 3rem;
+  }
+}

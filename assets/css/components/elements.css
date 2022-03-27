@@ -1,0 +1,127 @@
+.title {
+  font: var(--font-title);
+  color: var(--color__9);
+}
+
+.text {
+  font: var(--font-paragraph);
+  color: var(--color__8);
+}
+
+.header__menu--general a,
+.menu__mobile--disable a {
+  font: var(--font-menu-mobile);
+  color: var(--color__8);
+}
+
+.menu__mobile--disable a {
+  font-size: 1.8rem;
+}
+
+.benefit__icons--type {
+  font: var(--font-icons);
+  color: var(--color__7);
+}
+
+.silver,
+.gold {
+  font: var(--font-plan-title);
+}
+
+.footer__text {
+  font: var(--font-footer);
+  color: var(--color__9);
+}
+
+.footer__text--list {
+  font: var(--font-footer-list);
+  color: var(--color__8);
+}
+
+.logo {
+  font: var(--font-title-logo);
+}
+
+.container {
+  max-width: 18.75rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  box-sizing: border-box;
+}
+
+.logo--part {
+  font: var(--font-menu-logo);
+  color: var(--color__9);
+}
+
+.logo--part {
+  display: grid;
+  justify-items: center;
+  grid-template-rows: auto 1fr;
+}
+
+.logo--part img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.button {
+  font: var(--font-button);
+  color: var(--color__9);
+  text-transform: uppercase;
+  padding: 10px 20px;
+  background: linear-gradient(var(--color__5), var(--color__6));
+  max-width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 1em rgba(200, 159, 102, 90%);
+}
+
+.button:hover {
+  color: var(--color__7);
+}
+
+@media only screen and (min-width: 700px) {
+  .container {
+    max-width: 40rem;
+    padding-top: 3rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text {
+    font-size: 1.3rem;
+  }
+  .logo {
+    font-size: 2rem;
+  }
+  .benefit__icons--type {
+    font-size: 1rem;
+  }
+  .silver,
+  .gold {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 68.75rem;
+    padding-top: 4rem;
+  }
+  .title {
+    font-size: 2.2rem;
+  }
+  .text {
+    font-size: 1.7rem;
+  }
+  .logo {
+    font-size: 2.2rem;
+  }
+  .silver,
+  .gold {
+    font-size: 2.2rem;
+  }
+}

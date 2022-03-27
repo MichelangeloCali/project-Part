@@ -1,0 +1,129 @@
+.header {
+  background-image: url(../../img/introducao.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container.container--header {
+  padding-top: 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 42.5rem;
+}
+
+.container.container--header h1 {
+  font: var(--font-logo);
+  color: var(--color__1);
+  margin-top: 30rem;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  padding-top: 0.3rem;
+  background: var(--color__2);
+  position: fixed;
+  z-index: 2;
+}
+
+.header__menu--general {
+  display: none;
+}
+
+.header__menu--mobile {
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  background: none;
+}
+
+.menu__mobile--disable {
+  height: 100vh;
+  width: 100vw;
+  background: var(--color__2);
+  position: fixed;
+  top: 5.25rem;
+  overflow-y: hidden;
+  z-index: 2;
+  display: none;
+}
+
+.menu__mobile--enable {
+  display: block;
+}
+
+.overflow {
+  overflow-y: hidden;
+}
+
+.menu__mobile--items {
+  display: grid;
+  justify-items: end;
+}
+
+.menu__mobile--items a {
+  padding: 2rem 3rem;
+  display: block;
+  position: relative;
+  width: fit-content;
+}
+
+.menu__mobile--items a::after {
+  content: "";
+  width: calc(100% - 6rem);
+  height: 2px;
+  bottom: 2rem;
+  right: 3rem;
+  background-color: var(--color__9);
+  position: absolute;
+}
+
+.menu__mobile--items a::before {
+  content: "";
+  position: absolute;
+  background: url(../../img/icons/global/logodesign.svg);
+  width: 1.25rem;
+  height: 1.25rem;
+  right: 1rem;
+  bottom: 2.3rem;
+}
+
+@media only screen and (min-width: 700px) {
+  .header__menu {
+    min-width: 35rem;
+    min-width: 90vw;
+  }
+  .header__menu--mobile,
+  .menu__mobile--disable {
+    display: none;
+  }
+  .header__menu--general {
+    display: flex;
+    gap: 1.5rem;
+    align-items: baseline;
+    margin-left: 3rem;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .header__menu {
+    min-width: 80vw;
+  }
+  .header__menu--general {
+    gap: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .container.container--header {
+    min-height: 60rem;
+  }
+  .container.container--header h1 {
+    margin-top: 45rem;
+  }
+}
