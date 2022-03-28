@@ -10,8 +10,16 @@ About the design: The designs (style guide) mobile, tablet and desktop were crea
 Sale of service subscription plans. Evaluation of units and locations.
 
 # Running or changing the project
-To run the project, just download and open the "home.html" file with your browser. 
-If you want to change the project, it will be necessary to create a new file "style.min.css" after the change. In this case, you must have the NPM extension (https://www.npmjs.com/package/clean-css) in your IDE and run it in the terminal, inside the directory where the CSS folder is located, with the following command: "cleancss -o style.min.css style.css --with-rebase".
+To run the project, just download and open the ``"home.html"`` file with your browser. 
+If you want to change the project, it will be necessary to create a new file ``"style.min.css"`` after the change. In this case, you must have the ``NPM extension`` (https://www.npmjs.com/package/clean-css) in your IDE and run it in the terminal, ``inside the directory where the CSS folder is located``, with the following command: 
+
+```
+npm install -g clean-css-cli
+
+cd assets/css
+
+cleancss -o style.min.css style.css --with-rebase
+```
 
 # Tools used
 HTML5, CSS3, Javascript, VSCode IDE, Figma, Adobe Color.
