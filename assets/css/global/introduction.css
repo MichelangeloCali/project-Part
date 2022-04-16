@@ -10,6 +10,10 @@
   object-fit: cover;
 }
 
+.introduction__container {
+  margin-top: 5rem;
+}
+
 .introduction .container {
   display: grid;
   gap: 1.875rem;
@@ -34,6 +38,7 @@
     grid-template-columns: 2fr 3fr;
     align-items: center;
     max-width: 60rem;
+    margin-top: -0.5rem;
   }
   .introduction .container {
     margin-top: 5rem;

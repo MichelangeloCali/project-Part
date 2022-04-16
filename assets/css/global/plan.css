@@ -8,7 +8,7 @@
 }
 
 .plan .container h2 {
-  margin-top: 2rem;
+  margin-top: 5rem;
 }
 
 .plan__type {
@@ -76,6 +76,9 @@ li + li {
     height: max-content;
   }
   .plan__type--silver {
+    margin-top: 3rem;
+  }
+  .plan .container h2 {
     margin-top: 3rem;
   }
 }

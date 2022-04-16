@@ -11,13 +11,13 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  min-height: 42.5rem;
+  min-height: 43rem;
 }
 
 .container.container--header h1 {
   font: var(--font-logo);
   color: var(--color__1);
-  margin-top: 30rem;
+  margin-top: 32rem;
 }
 
 .header__menu {
@@ -94,7 +94,6 @@
 
 @media only screen and (min-width: 700px) {
   .header__menu {
-    min-width: 35rem;
     min-width: 90vw;
   }
   .header__menu--mobile,

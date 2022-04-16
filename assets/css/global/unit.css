@@ -11,7 +11,7 @@
 
 .unit .container h2 {
   padding-bottom: 1rem;
-  margin-top: 2rem;
+  margin-top: 5rem;
 }
 
 .unit__local {
@@ -52,6 +52,9 @@
   }
   .unit__local--image {
     height: 18rem;
+  }
+  .unit .container h2 {
+    margin-top: 3rem;
   }
 }
 
