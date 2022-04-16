@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home | Part.</title>
-  <link rel="preload" href="./assets/css/style.min.css">
-  <link rel="stylesheet" href="./assets/css/style.min.css">
+  <link rel="preload" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,16 +25,16 @@
         <nav aria-label="Primária">
           <ul class="header__menu--general">
             <li>
-              <a href="./">Sobre a Part</a>
+              <a href="#sobre">Sobre a Part</a>
             </li>
             <li>
-              <a href="./">Unidades</a>
+              <a href="#unidades">Unidades</a>
             </li>
             <li>
-              <a href="./">Planos</a>
+              <a href="#planos">Planos</a>
             </li>
             <li>
-              <a href="./">Contato</a>
+              <a href="#contato">Contato</a>
             </li>
           </ul>
         </nav>
@@ -64,7 +64,7 @@
     </div>
   </header>
 
-  <section class="introduction" aria-label="introdução">
+  <section class="introduction" aria-label="introdução" id="sobre">
     <div class="introduction__container">
       <div class="container">
         <h2 class="title">Na <span class="logo">Part</span> você encontra tudo o que precisa para a sua equipe.</h2>
@@ -129,31 +129,37 @@
     </div>
   </section>
 
-  <section class="unit" aria-label="Nossas unidades">
+  <section class="unit" aria-label="Nossas unidades" id="unidades">
     <div class="container">
       <h2 class="title">Nossas Unidades</h2>
       <div class="unit__local">
-        <div class="unit__local--image">
-          <img src="./assets/img/unidades/altoxv.jpg" alt="Unidade Alto da XV" width="507" height="423">
-        </div>
-        <p class="unit__local--name">Alto da XV</p>
+        <a href="">
+          <div class="unit__local--image">
+            <img src="./assets/img/unidades/altoxv.jpg" alt="Unidade Alto da XV" width="507" height="423">
+          </div>
+          <p class="unit__local--name">Alto da XV</p>
+        </a>
       </div>
       <div class="unit__local">
-        <div class="unit__local--image">
-          <img src="./assets/img/unidades/bigorrilho.jpg" alt="Unidade Bigorrilho" width="507" height="423">
-        </div>
-        <p class="unit__local--name">Bigorrilho</p>
+        <a href="">
+          <div class="unit__local--image">
+            <img src="./assets/img/unidades/bigorrilho.jpg" alt="Unidade Bigorrilho" width="507" height="423">
+          </div>
+          <p class="unit__local--name">Bigorrilho</p>
       </div>
+      </a>
       <div class="unit__local">
-        <div class="unit__local--image">
-          <img src="./assets/img/unidades/batel.jpg" alt="Unidade Batel" width="507" height="423">
-        </div>
-        <p class="unit__local--name">Batel</p>
+        <a href="">
+          <div class="unit__local--image">
+            <img src="./assets/img/unidades/batel.jpg" alt="Unidade Batel" width="507" height="423">
+          </div>
+          <p class="unit__local--name">Batel</p>
       </div>
+      </a>
     </div>
   </section>
 
-  <main class="plan">
+  <main class="plan" id="planos">
     <div class="container">
       <h2 class="title">Nossos Planos</h2>
       <div class="plan__type">
@@ -182,7 +188,7 @@
     </div>
   </main>
 
-  <footer class="footer">
+  <footer class="footer" id="contato">
     <div class="container">
       <div class="logo--part">
         <img src="./assets/img/icons/global/logo.svg" alt="Logo da Part." width="80" height="80">

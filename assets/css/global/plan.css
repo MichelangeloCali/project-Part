@@ -7,6 +7,10 @@
   padding-right: 0.5rem;
 }
 
+.plan .container h2 {
+  margin-top: 2rem;
+}
+
 .plan__type {
   display: grid;
   justify-content: center;
