@@ -17,7 +17,7 @@ buttonMenuLink.addEventListener("click", () => {
 class AnimaScroll {
   constructor(sections) {
     this.sections = document.querySelectorAll(sections);
-    this.windowHalf = window.innerHeight * 0.5;
+    this.windowHalf = window.innerHeight * 0.6;
     this.activeClass = "ativo";
 
     this.checkDistance = this.checkDistance.bind(this);
