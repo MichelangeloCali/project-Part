@@ -27,7 +27,7 @@ cleancss -o style.min.css style.css --with-rebase
 HTML5, CSS3, Javascript, VSCode IDE, Figma, Adobe Color.
 
 # Project layout
-![home-Part](https://user-images.githubusercontent.com/90471567/160477825-462078bf-f0b2-4c44-8212-075fbccc9ff6.gif)
+![home-Part](https://user-images.githubusercontent.com/90471567/169142777-0075f177-10d4-4508-8464-98951c633093.gif)
 
 # Developer
 LinkedIn:
