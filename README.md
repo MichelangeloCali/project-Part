@@ -1,15 +1,24 @@
-# Project
+# Part website - coworking space 
 Personal project of a website for a fictional coworking space franchise "Part."
+
+![home-Part](https://user-images.githubusercontent.com/90471567/169142777-0075f177-10d4-4508-8464-98951c633093.gif)
 
 Link: (https://michelangelocali.github.io/project-Part/)
 
-# Description
-The website was developed to sell plans for a Coworking service in the city of Curitiba. 
-The website proposes is to demonstrate the benefits of contracting the service, plan values, description and location of existing units.
-About the design: The designs (style guide) mobile, tablet and desktop were created in figma. Photos were downloaded from unsplash. The colors used were selected using Adobe Color and Figma. About the code: the HTML created was semantic and accessible. Components were created with CSS to allow the website to be scalable, in addition to being responsive.
 
 # Usefulness of the website
+The website was developed to sell plans for a Coworking service in the city of Curitiba. 
+The website proposes is to demonstrate the benefits of contracting the service, plan values, description and location of existing units.
 Sale of service subscription plans. Evaluation of units and locations.
+
+
+# How was it developed?
+About the design: The designs (style guide) mobile, tablet and desktop were created in figma. Photos were downloaded from unsplash. The colors used were selected using Adobe Color and Figma. About the code: the HTML created was semantic and accessible. Components were created with CSS to allow the website to be scalable, in addition to being responsive.
+
+
+# Tools used
+HTML5, CSS3, Javascript, VSCode IDE, Figma, Adobe Color.
+
 
 # Running or changing the project
 To run the project, just download and open the ``"home.html"`` file with your browser. 
@@ -23,13 +32,8 @@ cd assets/css
 cleancss -o style.min.css style.css --with-rebase
 ```
 
-# Tools used
-HTML5, CSS3, Javascript, VSCode IDE, Figma, Adobe Color.
 
-# Project layout
-![home-Part](https://user-images.githubusercontent.com/90471567/169142777-0075f177-10d4-4508-8464-98951c633093.gif)
-
-# Developer
+# Developers
 LinkedIn:
 https://www.linkedin.com/in/michelangelocali/
 
